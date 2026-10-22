@@ -2800,71 +2800,64 @@ footer p {
   }
 }
 
-
-
 /* =====================================================
    HTML & CSS LEARNING PAGE
 ===================================================== */
 
 .learning-hero {
-    min-height: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 90px 7%;
-    background:
-        linear-gradient(
-            rgba(5, 11, 28, 0.88),
-            rgba(5, 11, 28, 0.95)
-        );
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 90px 7%;
+  background: linear-gradient(rgba(5, 11, 28, 0.88), rgba(5, 11, 28, 0.95));
 }
 
 .learning-hero-content {
-    max-width: 850px;
+  max-width: 850px;
 }
 
 .section-label {
-    color: #ff4fa3;
-    font-size: 14px;
-    font-weight: bold;
-    letter-spacing: 3px;
-    margin-bottom: 15px;
+  color: #ff4fa3;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin-bottom: 15px;
 }
 
 .learning-hero h1 {
-    font-family: "Damion", cursive;
-    font-size: 70px;
-    font-weight: normal;
-    color: #ff4fa3;
-    margin: 0 0 15px;
+  font-family: "Damion", cursive;
+  font-size: 70px;
+  font-weight: normal;
+  color: #ff4fa3;
+  margin: 0 0 15px;
 }
 
 .learning-hero h2 {
-    font-size: 28px;
-    color: #ffffff;
-    margin-bottom: 25px;
+  font-size: 28px;
+  color: #ffffff;
+  margin-bottom: 25px;
 }
 
 .learning-hero p {
-    color: #c9ccda;
-    font-size: 18px;
-    line-height: 1.8;
+  color: #c9ccda;
+  font-size: 18px;
+  line-height: 1.8;
 }
-
 
 /* =====================================================
    INTRODUCTION
 ===================================================== */
 
 .learning-section {
-    padding: 80px 7%;
+  padding: 80px 7%;
 }
 
 .learning-content {
-    max-width: 900px;
-    margin: 0 auto;
-    text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .learning-content h2,
@@ -2873,279 +2866,600 @@ footer p {
 .screenshots-section h2,
 .current-learning h2,
 .related-posts h2 {
-    color: #ffffff;
-    font-size: 36px;
-    margin-bottom: 25px;
+  color: #ffffff;
+  font-size: 36px;
+  margin-bottom: 25px;
 }
 
 .learning-content p {
-    color: #c9ccda;
-    font-size: 17px;
-    line-height: 1.8;
-    margin-bottom: 20px;
+  color: #c9ccda;
+  font-size: 17px;
+  line-height: 1.8;
+  margin-bottom: 20px;
 }
-
 
 /* =====================================================
    HTML + CSS CARDS
 ===================================================== */
 
 .skills-section {
-    padding: 80px 7%;
-    background: #071126;
+  padding: 80px 7%;
+  background: #071126;
 }
 
 .skills-container {
-    max-width: 1100px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
 }
 
 .skill-card {
-    padding: 35px;
-    background: rgba(255, 255, 255, 0.04);
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    border-radius: 12px;
-    transition: 0.3s ease;
+  padding: 35px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  transition: 0.3s ease;
 }
 
 .skill-card:hover {
-    border-color: #ff4fa3;
-    box-shadow: 0 0 20px rgba(255, 79, 163, 0.2);
+  border-color: #ff4fa3;
+  box-shadow: 0 0 20px rgba(255, 79, 163, 0.2);
 }
 
 .skill-icon {
-    font-size: 35px;
-    color: #ff4fa3;
-    margin-bottom: 10px;
+  font-size: 35px;
+  color: #ff4fa3;
+  margin-bottom: 10px;
 }
 
 .skill-card h2 {
-    color: #ff4fa3;
-    margin-bottom: 15px;
+  color: #ff4fa3;
+  margin-bottom: 15px;
 }
 
 .skill-card p {
-    color: #c9ccda;
-    line-height: 1.7;
+  color: #c9ccda;
+  line-height: 1.7;
 }
 
 .skill-card h3 {
-    color: #ffffff;
-    margin-top: 25px;
+  color: #ffffff;
+  margin-top: 25px;
 }
 
 .skill-card ul {
-    padding-left: 20px;
-    color: #c9ccda;
-    line-height: 2;
+  padding-left: 20px;
+  color: #c9ccda;
+  line-height: 2;
 }
-
 
 /* =====================================================
    CODE EXAMPLES
 ===================================================== */
 
 .code-section {
-    padding: 90px 7%;
+  padding: 90px 7%;
 }
 
 .code-container {
-    max-width: 1000px;
-    margin: 0 auto;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .section-description {
-    max-width: 750px;
-    margin: 0 auto 40px;
-    text-align: center;
-    color: #c9ccda;
-    line-height: 1.8;
+  max-width: 750px;
+  margin: 0 auto 40px;
+  text-align: center;
+  color: #c9ccda;
+  line-height: 1.8;
 }
 
 .code-example {
-    margin-bottom: 35px;
+  margin-bottom: 35px;
 }
 
 .code-example h3 {
-    color: #ff4fa3;
-    margin-bottom: 12px;
+  color: #ff4fa3;
+  margin-bottom: 12px;
 }
 
 .code-example pre {
-    background: #020714;
-    border: 1px solid #273454;
-    border-radius: 10px;
-    padding: 25px;
-    overflow-x: auto;
+  background: #020714;
+  border: 1px solid #273454;
+  border-radius: 10px;
+  padding: 25px;
+  overflow-x: auto;
 }
 
 .code-example code {
-    color: #d19aff;
-    font-family: Consolas, monospace;
-    font-size: 15px;
-    line-height: 1.7;
+  color: #d19aff;
+  font-family: Consolas, monospace;
+  font-size: 15px;
+  line-height: 1.7;
 }
-
 
 /* =====================================================
    SCREENSHOTS
 ===================================================== */
 
 .screenshots-section {
-    padding: 90px 7%;
-    background: #071126;
+  padding: 90px 7%;
+  background: #071126;
 }
 
 .screenshots-container {
-    max-width: 1100px;
-    margin: 0 auto;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 .learning-screenshots {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
 }
 
 .screenshot-card {
-    text-align: center;
-    background: rgba(255, 255, 255, 0.04);
-    padding: 25px;
-    border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.12);
+  text-align: center;
+  background: rgba(255, 255, 255, 0.04);
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
 }
 
 .screenshot-card img {
-    width: 100%;
-    max-width: 500px;
-    height: auto;
-    display: block;
-    margin: 0 auto 20px;
-    border-radius: 8px;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px;
+  border-radius: 8px;
 }
 
 .screenshot-card h3 {
-    color: #ffffff;
-    margin-bottom: 10px;
+  color: #ffffff;
+  margin-bottom: 10px;
 }
 
 .screenshot-card p {
-    color: #c9ccda;
-    line-height: 1.7;
+  color: #c9ccda;
+  line-height: 1.7;
 }
-
 
 /* =====================================================
    CURRENT LEARNING
 ===================================================== */
 
 .current-learning {
-    padding: 90px 7%;
-    text-align: center;
+  padding: 90px 7%;
+  text-align: center;
 }
 
 .current-learning-content {
-    max-width: 850px;
-    margin: 0 auto;
+  max-width: 850px;
+  margin: 0 auto;
 }
 
 .current-learning h2 {
-    color: #ff4fa3;
+  color: #ff4fa3;
 }
 
 .current-learning p:not(.section-label) {
-    color: #c9ccda;
-    line-height: 1.8;
-    font-size: 17px;
-    margin-bottom: 20px;
+  color: #c9ccda;
+  line-height: 1.8;
+  font-size: 17px;
+  margin-bottom: 20px;
 }
-
 
 /* =====================================================
    RELATED POSTS
 ===================================================== */
 
 .related-posts {
-    padding: 80px 7%;
-    background: #071126;
-    text-align: center;
+  padding: 80px 7%;
+  background: #071126;
+  text-align: center;
 }
 
 .post-links {
-    max-width: 900px;
-    margin: 40px auto 0;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 25px;
+  max-width: 900px;
+  margin: 40px auto 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
 }
 
 .post-link {
-    display: block;
-    padding: 30px;
-    text-decoration: none;
-    background: rgba(255, 255, 255, 0.04);
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    border-radius: 10px;
-    transition: 0.3s ease;
+  display: block;
+  padding: 30px;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  transition: 0.3s ease;
 }
 
 .post-link:hover {
-    border-color: #ff4fa3;
-    transform: translateY(-5px);
+  border-color: #ff4fa3;
+  transform: translateY(-5px);
 }
 
 .post-link h3 {
-    color: #ffffff;
-    margin-bottom: 15px;
+  color: #ffffff;
+  margin-bottom: 15px;
 }
 
 .post-link span {
-    color: #ff4fa3;
+  color: #ff4fa3;
 }
-
 
 /* =====================================================
    FOOTER
 ===================================================== */
 
 footer {
-    text-align: center;
-    padding: 30px;
-    border-top: 1px solid #273454;
-    color: #c9ccda;
+  text-align: center;
+  padding: 30px;
+  border-top: 1px solid #273454;
+  color: #c9ccda;
 }
-
 
 /* =====================================================
    MOBILE
 ===================================================== */
 
 @media (max-width: 768px) {
+  .learning-hero h1 {
+    font-size: 52px;
+  }
 
-    .learning-hero h1 {
-        font-size: 52px;
-    }
+  .learning-hero h2 {
+    font-size: 22px;
+  }
 
-    .learning-hero h2 {
-        font-size: 22px;
-    }
+  .skills-container,
+  .learning-screenshots,
+  .post-links {
+    grid-template-columns: 1fr;
+  }
 
-    .skills-container,
-    .learning-screenshots,
-    .post-links {
-        grid-template-columns: 1fr;
-    }
-
-    .learning-section,
-    .skills-section,
-    .code-section,
-    .screenshots-section,
-    .current-learning,
-    .related-posts {
-        padding: 60px 6%;
-    }
+  .learning-section,
+  .skills-section,
+  .code-section,
+  .screenshots-section,
+  .current-learning,
+  .related-posts {
+    padding: 60px 6%;
+  }
 }
 
+/* INDIVIDUAL BLOG POST */
+
+.blog-post-page {
+  width: 100%;
+  padding: 80px 7%;
+  background: #050b1c;
+}
+.blog-post {
+  max-width: 850px;
+  margin: 0 auto;
+} /* Category */
+.blog-post .post-category {
+  color: #ff4fa3;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+} /* Blog Title */
+.blog-post h1 {
+  color: #ffffff;
+  font-size: 48px;
+  line-height: 1.2;
+  margin-bottom: 15px;
+} /* Date */
+.blog-post .post-date {
+  color: #b88cff;
+  font-size: 16px;
+  margin-bottom: 45px;
+}
+/* blog image */
+.blog-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Paragraphs */
+.blog-post p {
+  color: #e5e5e5;
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 25px;
+} /* Section Headings */
+.blog-post h2 {
+  color: #ff4fa3;
+  font-size: 30px;
+  margin-top: 55px;
+  margin-bottom: 20px;
+} /* Smaller Headings */
+.blog-post h3 {
+  color: #b88cff;
+  font-size: 22px;
+  margin-top: 35px;
+  margin-bottom: 10px;
+} /* Quote */
+.blog-post blockquote {
+  margin: 35px 0;
+  padding: 20px 25px;
+  border-left: 4px solid #ff4fa3;
+  background: rgba(255, 79, 163, 0.06);
+  color: #ffffff;
+  font-size: 21px;
+  line-height: 1.6;
+  font-style: italic;
+} /* List */
+.blog-post .blog-list {
+  margin: 20px 0 30px 25px;
+  padding-left: 20px;
+}
+.blog-post .blog-list li {
+  color: #e5e5e5;
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 10px;
+} /* New App Name */
+.blog-post .new-app-name {
+  text-align: center;
+  color: #ff4fa3;
+  font-size: 34px;
+  font-weight: bold;
+  padding: 25px;
+  margin: 35px 0;
+  border: 2px solid #ff4fa3;
+  border-radius: 12px;
+  background: rgba(255, 79, 163, 0.05);
+  box-shadow: 0 0 20px rgba(255, 79, 163, 0.15);
+} /* Back to Blog */
+.blog-post .back-to-blog {
+  display: inline-block;
+  margin-top: 35px;
+  color: #ff4fa3;
+  font-size: 17px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+.blog-post .back-to-blog:hover {
+  color: #b88cff;
+} /* Mobile */
+@media (max-width: 768px) {
+  .blog-post-page {
+    padding: 60px 6%;
+  }
+  .blog-post h1 {
+    font-size: 36px;
+  }
+  .blog-post h2 {
+    font-size: 26px;
+  }
+  .blog-post p,
+  .blog-post .blog-list li {
+    font-size: 17px;
+  }
+  .blog-post .new-app-name {
+    font-size: 27px;
+  }
+}
+
+/* ===================================
+   BLOG ARTICLE PAGE
+   Changing My App Name
+=================================== */
+
+.blog-post-page {
+  min-height: 100vh;
+  background: #050b1c;
+  padding: 70px 20px 100px;
+}
+
+/* Main article container */
+.blog-post {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 45px 50px;
+
+  background: #071126;
+  border: 1px solid #253153;
+  border-radius: 18px;
+
+  color: #e8e8f0;
+  line-height: 1.9;
+}
+
+/* Blog category */
+.blog-post .post-category {
+  color: #ff4fa3;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+/* Main blog title */
+.blog-post h1 {
+  font-size: 38px;
+  line-height: 1.3;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+/* Blog date */
+.blog-post .post-date {
+  color: #bd8cff;
+  font-size: 14px;
+  margin-bottom: 35px;
+}
+
+/* Paragraphs */
+.blog-post p {
+  font-size: 16px;
+  line-height: 1.9;
+  margin-bottom: 20px;
+}
+
+/* Highlight important text */
+.blog-post strong {
+  color: #ff4fa3;
+  font-weight: 600;
+}
+
+/* Section headings */
+.blog-post h2 {
+  color: #ff4fa3;
+  font-size: 26px;
+  margin-top: 45px;
+  margin-bottom: 18px;
+}
+
+/* Smaller headings */
+.blog-post h3 {
+  color: #bd8cff;
+  font-size: 20px;
+  margin-top: 28px;
+  margin-bottom: 12px;
+}
+
+/* Highlighted quote */
+.blog-post blockquote {
+  background: #101b35;
+  border-left: 4px solid #ff4fa3;
+  border-radius: 8px;
+
+  padding: 20px 25px;
+  margin: 30px 0;
+
+  color: #ffffff;
+  font-size: 19px;
+  font-style: italic;
+  line-height: 1.7;
+}
+
+/* Blog list */
+.blog-post .blog-list {
+  padding-left: 25px;
+  margin: 20px 0 30px;
+}
+
+.blog-post .blog-list li {
+  color: #e8e8f0;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.blog-post .blog-list li::marker {
+  color: #ff4fa3;
+}
+
+/* Highlight new app name */
+.blog-post .new-app-name {
+  background: linear-gradient(135deg, #ff4fa3, #bd8cff);
+
+  color: #050b1c;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+
+  padding: 25px;
+  margin: 30px 0;
+
+  border-radius: 14px;
+  box-shadow: 0 5px 25px rgba(255, 79, 163, 0.2);
+}
+
+/* Back to blog button */
+.blog-post .back-to-blog {
+  display: inline-block;
+  margin-top: 40px;
+  padding: 13px 25px;
+
+  background: #ff4fa3;
+  color: #050b1c;
+
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+.blog-post .back-to-blog:hover {
+  background: #bd8cff;
+  transform: translateY(-3px);
+}
+
+/* Footer */
+.blog-post-page + footer {
+  background: #050b1c;
+  color: #a5a5b5;
+  text-align: center;
+  padding: 25px 20px;
+  border-top: 1px solid #253153;
+}
+
+/* ===================================
+   RESPONSIVE DESIGN
+=================================== */
+
+@media (max-width: 768px) {
+  .blog-post-page {
+    padding: 40px 15px 70px;
+  }
+
+  .blog-post {
+    padding: 30px 25px;
+  }
+
+  .blog-post h1 {
+    font-size: 30px;
+  }
+
+  .blog-post h2 {
+    font-size: 23px;
+  }
+
+  .blog-post h3 {
+    font-size: 18px;
+  }
+
+  .blog-post .new-app-name {
+    font-size: 24px;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .blog-post {
+    padding: 25px 18px;
+  }
+
+  .blog-post h1 {
+    font-size: 26px;
+  }
+
+  .blog-post p {
+    font-size: 15px;
+  }
+
+  .blog-post blockquote {
+    font-size: 16px;
+    padding: 15px;
+  }
+
+  .blog-post .new-app-name {
+    font-size: 21px;
+  }
+}
