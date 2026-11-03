@@ -1,0 +1,460 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dottie Codes | Learning, Building, Coding</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Damion&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--------NAVIGATION-------->
+    <header class="navbar">
+      <a href="index.html" class="logo">Dottie Codes <span>&lt;/&gt;</span> </a>
+
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="blog.html">Blog</a>
+        <a href="python.html">Python</a>
+        <a href="web-development.html">HTML & CSS</a>
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About</a>
+      </nav>
+    </header>
+
+     <!-- BLOG ARTICLE -->
+    <main class="article-container">
+
+      <div class="article-header">
+        <span class="article-category">Python</span>
+
+        <h1>
+          Connecting Python to HTML: Getting Started with Flask
+        </h1>
+
+        <p class="article-date">
+          November 2026 | Dottie Codes
+        </p>
+      </div>
+
+      <div class="article-image">
+        <img
+          src="images/python-blog.png"
+          alt="Python programming and web development"
+        />
+      </div>
+
+      <article class="article-content">
+
+        <p>
+          When I first started learning Python, I understood that
+          Python could be used to build applications, but I wasn't
+          quite sure how it connected to HTML. I was already familiar
+          with creating HTML pages and styling them with CSS, so
+          learning how to bring Python into the picture was a new
+          experience.
+        </p>
+
+        <p>
+          As I started working on my MyStep Journey app, I began
+          learning how Python and HTML can work together using a
+          framework called Flask.
+        </p>
+
+        <p>
+          In this post, I'm sharing what I've learned about connecting
+          Python to HTML, setting up Flask, and organizing project
+          files into folders.
+        </p>
+
+        <!-- SECTION 1 -->
+        <h2>1. Understanding How Python and HTML Work Together</h2>
+
+        <p>
+          Before connecting Python to HTML, it's helpful to understand
+          what each language does.
+        </p>
+
+        <ul>
+          <li><strong>HTML:</strong> Creates the structure and content of a webpage.</li>
+          <li><strong>CSS:</strong> Controls the appearance, colors, spacing, and layout.</li>
+          <li><strong>JavaScript:</strong> Adds interactive features to a webpage.</li>
+          <li><strong>Python:</strong> Handles backend tasks, processes information, and communicates with databases.</li>
+          <li><strong>Flask:</strong> A Python framework that helps connect the backend to your website.</li>
+        </ul>
+
+        <p>
+          Think of HTML as what visitors see on the screen and Python
+          as the part working behind the scenes. Flask helps these
+          two parts communicate.
+        </p>
+
+        <!-- SECTION 2 -->
+        <h2>2. Installing Flask</h2>
+
+        <p>
+          To get started, you need Python installed on your computer.
+          I used Visual Studio Code (VS Code) to work on my project.
+        </p>
+
+        <p>
+          First, open your project folder in VS Code and open the
+          terminal.
+        </p>
+
+        <p>Create a virtual environment by entering:</p>
+
+        <pre><code>python -m venv .venv</code></pre>
+
+        <p>
+          A virtual environment keeps your project's Python packages
+          separate from other projects.
+        </p>
+
+        <p>
+          Next, activate the environment in Windows PowerShell:
+        </p>
+
+        <pre><code>.venv\Scripts\Activate.ps1</code></pre>
+
+        <p>
+          If PowerShell blocks the command, you may need to allow
+          scripts for the current terminal session:
+        </p>
+
+        <pre><code>Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned</code></pre>
+
+        <p>
+          Then activate the environment again.
+        </p>
+
+        <p>Once your virtual environment is active, install Flask:</p>
+
+        <pre><code>pip install flask</code></pre>
+
+        <p>
+          Now Flask is installed and ready to use in your project.
+        </p>
+
+        <!-- SECTION 3 -->
+        <h2>3. Organizing Your Project Into Folders</h2>
+
+        <p>
+          One of the things I learned is that organizing files makes
+          a project much easier to manage.
+        </p>
+
+        <p>
+          Instead of keeping every HTML, CSS, JavaScript, and Python
+          file in one folder, Flask uses a structure that separates
+          the different parts of your application.
+        </p>
+
+        <p>Here is an example of how a Flask project can be organized:</p>
+
+        <pre class="folder-structure"><code>MyStep Journey/
+│
+├── app.py
+│
+├── templates/
+│   ├── index.html
+│   ├── goals.html
+│   ├── history.html
+│   ├── profile.html
+│   └── edit-profile.html
+│
+├── static/
+│   ├── css/
+│   │   └── style.css
+│   │
+│   ├── js/
+│   │   └── script.js
+│   │
+│   └── images/
+│       └── logo.png
+│
+└── .venv/</code></pre>
+
+        <h3>What Each Folder Does</h3>
+
+        <p>
+          <strong>app.py:</strong> This is the main Python file.
+          It contains the Flask application and the routes that
+          determine which HTML page should be displayed.
+        </p>
+
+        <p>
+          <strong>templates/:</strong> This folder holds your HTML
+          files. Flask looks inside this folder when you use
+          <code>render_template()</code>.
+        </p>
+
+        <p>
+          <strong>static/:</strong> This folder holds files that
+          support your website, such as CSS, JavaScript, and images.
+        </p>
+
+        <p>
+          <strong>css/:</strong> This folder holds your stylesheets.
+        </p>
+
+        <p>
+          <strong>js/:</strong> This folder holds your JavaScript files.
+        </p>
+
+        <p>
+          <strong>images/:</strong> This folder holds your website
+          images, icons, and other graphics.
+        </p>
+
+        <p>
+          You don't have to create every folder at once. You can
+          add more as your project grows.
+        </p>
+
+        <!-- SECTION 4 -->
+        <h2>4. Creating Your First Flask Connection</h2>
+
+        <p>
+          Now that the folders are organized, it's time to connect
+          Python to HTML.
+        </p>
+
+        <p>
+          Open your <code>app.py</code> file and add:
+        </p>
+
+        <pre><code>from flask import Flask, render_template
+
+app = Flask(__name__)
+
+@app.route("/")
+def home():
+    return render_template("index.html")
+
+if __name__ == "__main__":
+    app.run(debug=True)</code></pre>
+
+        <h3>Breaking Down the Code</h3>
+
+        <ul>
+          <li>
+            <code>from flask import Flask, render_template</code>
+            imports the tools needed to create the application
+            and display HTML pages.
+          </li>
+          <li>
+            <code>app = Flask(__name__)</code> creates your
+            Flask application.
+          </li>
+          <li>
+            <code>@app.route("/")</code> tells Flask which URL
+            should display the home page.
+          </li>
+          <li>
+            <code>def home():</code> creates a Python function
+            that runs when someone visits that route.
+          </li>
+          <li>
+            <code>render_template("index.html")</code> tells Flask
+            to display the HTML file inside the templates folder.
+          </li>
+          <li>
+            <code>app.run(debug=True)</code> starts the development
+            server and helps identify errors while you're working.
+          </li>
+        </ul>
+
+        <p>
+          This is the beginning of connecting your frontend to
+          your Python backend.
+        </p>
+
+        <!-- SECTION 5 -->
+        <h2>5. Connecting Your Other HTML Pages</h2>
+
+        <p>
+          Once the home page is connected, you can create additional
+          routes for the other pages in your application.
+        </p>
+
+        <p>For example:</p>
+
+        <pre><code>@app.route("/goals")
+def goals():
+    return render_template("goals.html")
+
+
+@app.route("/history")
+def history():
+    return render_template("history.html")
+
+
+@app.route("/profile")
+def profile():
+    return render_template("profile.html")</code></pre>
+
+        <p>
+          Each route connects a URL to an HTML page.
+        </p>
+
+        <p>You can then visit:</p>
+
+        <ul>
+          <li><code>http://127.0.0.1:5000/</code> for the home page</li>
+          <li><code>http://127.0.0.1:5000/goals</code> for the goals page</li>
+          <li><code>http://127.0.0.1:5000/history</code> for the history page</li>
+          <li><code>http://127.0.0.1:5000/profile</code> for the profile page</li>
+        </ul>
+
+        <!-- SECTION 6 -->
+        <h2>6. Connecting Your CSS and JavaScript Files</h2>
+
+        <p>
+          After moving your CSS and JavaScript files into the static
+          folder, you need to update the paths in your HTML.
+        </p>
+
+        <p>For example, if your CSS file is inside static/css/, use:</p>
+
+        <pre><code>&lt;link
+  rel="stylesheet"
+  href="{{ url_for('static', filename='css/style.css') }}"
+/&gt;</code></pre>
+
+        <p>
+          For JavaScript inside static/js/, use:
+        </p>
+
+        <pre><code>&lt;script src="{{ url_for('static', filename='js/script.js') }}"&gt;&lt;/script&gt;</code></pre>
+
+        <p>
+          The <code>url_for()</code> function helps Flask generate
+          the correct path to your static files.
+        </p>
+
+        <p>You can use the same approach for images:</p>
+
+        <pre><code>&lt;img
+  src="{{ url_for('static', filename='images/logo.png') }}"
+  alt="My app logo"
+/&gt;</code></pre>
+
+        <div class="article-note">
+          <strong>Remember:</strong> Flask uses these paths because
+          your files are stored inside the static folder.
+        </div>
+
+        <!-- SECTION 7 -->
+        <h2>7. Starting Your Flask Application</h2>
+
+        <p>
+          Once everything is connected, it's time to run your
+          application.
+        </p>
+
+        <p>
+          Open the VS Code terminal and make sure you're inside
+          your project folder.
+        </p>
+
+        <p>Activate your virtual environment if it isn't already active:</p>
+
+        <pre><code>.venv\Scripts\Activate.ps1</code></pre>
+
+        <p>Then run:</p>
+
+        <pre><code>python app.py</code></pre>
+
+        <p>
+          If everything is working, Flask will display a local
+          development address in the terminal.
+        </p>
+
+        <p>Open that address in your browser:</p>
+
+        <pre><code>http://127.0.0.1:5000/</code></pre>
+
+        <p>
+          You can make changes to your HTML, CSS, and Python files
+          and refresh the browser to see your updates. With debug
+          mode enabled, Flask can automatically reload after many
+          code changes.
+        </p>
+
+        <!-- SECTION 8 -->
+        <h2>8. What I Learned Along the Way</h2>
+
+        <p>
+          Connecting Python to HTML was a learning experience because
+          it introduced me to a different way of building websites.
+        </p>
+
+        <p>
+          Before this, I was mainly working with HTML, CSS, and
+          JavaScript. Adding Python and Flask helped me understand
+          how a frontend and backend can work together.
+        </p>
+
+        <p>
+          I also learned that organizing files into folders is
+          important. Having a separate place for HTML templates,
+          CSS, JavaScript, and images makes it easier to find files
+          and keep a project organized.
+        </p>
+
+        <p>
+          There were moments when I had to troubleshoot errors
+          and figure out why something wasn't connecting correctly.
+          But each step helped me understand more about how Flask works.
+        </p>
+
+        <!-- FINAL THOUGHTS -->
+        <h2>Final Thoughts</h2>
+
+        <p>
+          Learning how to connect Python to HTML is an important
+          step toward building more advanced websites and applications.
+        </p>
+
+        <p>
+          You don't have to understand everything right away.
+          Start with a small Flask application, connect one HTML
+          page, and then gradually add more pages and features.
+        </p>
+
+        <p>
+          For me, this is another step in my journey toward becoming
+          a full-stack developer.
+        </p>
+
+        <p>
+          I'm still learning, building, and figuring things out
+          one step at a time.
+        </p>
+
+        <p>
+          <strong>Small steps. Big progress.</strong>
+        </p>
+
+        <a href="blog.html" class="article-back">
+          &larr; Back to Blog
+        </a>
+
+      </article>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>
+        &copy; 2026 Dottie Codes. Learning, Building, Coding.
+      </p>
+    </footer>
+
+  </body>
+</html>
